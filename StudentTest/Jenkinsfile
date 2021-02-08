@@ -8,8 +8,6 @@ pipeline{
 				
 					sh '''
           cd StudentTest
-          mvn compile test package sonar:sonar
-    '''
 		    }
 	    }
 	 }
